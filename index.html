@@ -7,7 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    
+        <form action="" name="form" id="form">
+            <h3>Add new Book</h3>
+            <label for="book-title">Title</label>
+            <input type="text" id="book-title" name="title">
+
+            <label for="book-author">Author</label>
+            <input type="text" id="book-author" name="author">
+
+            <label for="book-pages">Number of Pages</label>
+            <input type="number" id="book-pages" name="pages">
+
+            <label for="read-status">Read</label>
+            <select name="read" id="read-status" name="read-status">
+                <option value="Read">Read</option>
+                <option value="Not Read">Not Read</option>
+            </select>
+            <label for="fileInput">Upload Book Cover</label>
+            <input type="file" id="fileInput" name="image" accept="image/*">
+           
+            <button class="submit">Submit</button>
+        </form>
 </body>
 <script src="script.js"></script>
 </html>
