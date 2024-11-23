@@ -55,7 +55,7 @@ form input{
     align-items:center;
     background-color: #3B3A3A;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .screen-container{
@@ -65,4 +65,20 @@ form input{
     border-radius: 15px;
     display: grid;
     grid-template-columns: 60px 5fr;
+}
+
+.sidebar{
+    border-right: 1px solid #3B3A3A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content{
+    gap: 30px;
+    padding: 4%;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+
 }
