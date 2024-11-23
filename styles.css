@@ -47,3 +47,22 @@ form {
 form input{
     border-radius: 10px;
 }
+
+.screen-wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #3B3A3A;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.screen-container{
+    min-height: 100vh;
+    background-color: #474747;
+    width: 85%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 60px 5fr;
+}
