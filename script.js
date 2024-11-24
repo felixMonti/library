@@ -83,9 +83,8 @@ document.addEventListener('DOMContentLoaded',function(){
         
         
     })
-
-    let readButton = document.querySelectorAll('.book-img button')
-
+    
+    let but = document.querySelectorAll('.book-img button')
 
     but.forEach(n => {
         n.addEventListener('click', function(){
