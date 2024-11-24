@@ -25,4 +25,16 @@ document.addEventListener('DOMContentLoaded',function(){
     const submit = document.querySelector('.submit');
     const form = document.getElementById('form');
 
+    addBook.addEventListener('click', function(){
+        
+        title.value=""
+        author.value=""
+        pages.value=""
+    
+        bookCover.value=""
+        modal.classList.add('active')
+    })
+    close.addEventListener('click', function(){
+        modal.classList.remove('active')
+    })
 })
